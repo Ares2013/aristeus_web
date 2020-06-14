@@ -1,0 +1,82 @@
+.box{
+	position: relative;
+}
+.box>img{
+	width: 100%;
+}
+.front{
+	position: fixed;
+	width: 1220px;
+	height: 526px;
+	box-sizing: border-box;
+	 margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.front:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.front_l{
+	float: left;
+	width: 610px;
+	height: 526px;
+	box-sizing: border-box;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	
+}
+.front_l p{
+	font-size: 36px;
+	margin-top: 200px;
+	margin-bottom: 32px;
+}
+.front_r{
+	float: left;
+	width: 610px;
+	height: 526px;
+	box-sizing: border-box;
+	padding: 0 86px;
+	background: #fff;
+}
+.denim{
+	font-size: 42px;
+	color: #333;
+	text-align: center;
+	margin-top: 64px;
+	margin-bottom: 65px;
+}
+.painted{
+	padding: 14px 0;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 40px;
+}
+.painted input{
+	font-size: 22px;
+	/*color: #a1a1a1;*/
+	position: relative;
+	top: 2px;
+	width: 90%;
+	box-sizing: border-box;
+	padding-left: 24px;
+}
+.front_r button{
+	font-size: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background: #3f82e7;
+	border-radius: 22px;
+	color: #fff;
+	margin-top: 50px;
+}
+.box a {
+	position: absolute;
+	top: 60px;
+	left: 78px;
+}

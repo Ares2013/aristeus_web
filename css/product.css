@@ -1,0 +1,210 @@
+body {
+	background: #fff;
+}
+
+.lorism {
+	margin-top: 122px;
+	height: 504px;
+	background: url('../img/cp_banner.png') no-repeat center top;
+	background-size: cover;
+}
+
+.lorism .shrille {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 120px;
+	box-sizing: border-box;
+	padding-left: 126px;
+	padding-right: 238px;
+	color: #fff;
+}
+
+.lorism .rille_t {
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.lorism .rille_n {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 60px;
+	line-height: 26px;
+}
+
+.lorism .rille_n p {
+	margin-bottom: 15px;
+}
+
+.lorism .rille_m {
+	font-size: 18px;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 48px;
+}
+
+
+#foot {
+	margin-top: 150px;
+}
+
+.wfr .wrap {
+	width: 1200px;
+	margin: 78px auto 0;
+	position: relative;
+	min-height:406px;
+}
+
+.wfr .wrap .contain {
+	width: 720px;
+	padding-top: 30px;
+	float:left;
+}
+
+.wfr .wrap .contain .title {
+	font-size: 36px;
+	font-family: Arial;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	line-height: 1.5;
+	margin-bottom: 18px;
+}
+
+.wfr .wrap .contain .titleLine {
+	width: 85px;
+	height: 4px;
+	background: rgba(0, 153, 255, 1);
+	margin-bottom:15px;
+}
+
+.wfr .wrap .contain .txt {
+	font-size: 18px;
+	font-family: Arial;
+	color: #999999;
+	/* color: rgba(51, 51, 51, 1); */
+	line-height:1.8;
+	text-align:justify;
+}
+.wfr .wrap  .imgBx{
+	position: absolute;
+	right:0;
+	top:0;
+	width:845px;
+	height:406px;
+	text-align:right;
+	background:#F7F7F7;
+	z-index: -1;
+}	
+.wfr .wrap  .imgBx img{
+	width:418px;
+	height:406px;
+}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1}
+
+.htf .wrap {
+	width: 1200px;
+	margin: 78px auto 0;
+	position: relative;
+	min-height:444px;
+}
+
+.htf .wrap .contain {
+	width: 720px;
+	padding-top: 17px;
+	float:right;
+}
+
+.htf .wrap .contain .title {
+	font-size: 36px;
+	font-family: Arial;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	line-height: 1.5;
+	margin-bottom: 18px;
+	display:inline-block;
+	vertical-align: bottom;
+
+}
+
+.htf .wrap .contain .titleLine {
+	width: 85px;
+	height: 4px;
+	background: rgba(0, 153, 255, 1);
+	display:inline-block;
+	vertical-align: bottom;
+	margin-left:15px;
+	margin-bottom:25px;
+}
+
+.htf .wrap .contain .txt {
+	font-size: 18px;
+	font-family: Arial;
+	color: #999999;
+	/* color: rgba(51, 51, 51, 1); */
+	line-height:1.8;
+	text-align:justify;
+}
+.htf .wrap  .imgBx{
+	position: absolute;
+	left:0;
+	top:0;
+	width:845px;
+	height:444px;
+	text-align:left;
+	background:#F7F7F7;
+	z-index: -1;
+}	
+
+.htf .wrap  .imgBx img{
+	width:409px;
+	height:444px;
+}
+/* wtf */
+.wtf{
+	padding-bottom:70px;
+	background:url('../img/wtfBg.png') no-repeat center bottom;
+	
+}
+.wtf .wrap{
+	width:1200px;
+	margin:163px auto 0;
+}
+.wtf .wrap .contain ul {
+	padding-left:20px;
+}
+.wtf .wrap .contain ul li{
+	list-style: disc;
+
+}
+.wtf .wrap .contain .title {
+	font-size: 36px;
+	font-family: Arial;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	line-height: 1.5;
+	margin-bottom: 18px;
+	display:inline-block;
+	vertical-align: bottom;
+
+}
+
+.wtf .wrap .contain .titleLine {
+	width: 85px;
+	height: 4px;
+	background: rgba(0, 153, 255, 1);
+	display:inline-block;
+	vertical-align: bottom;
+	margin-left:15px;
+	margin-bottom:25px;
+}
+.wtf .wrap .contain .txt{
+	font-size:18px;
+	font-family:Arial;
+	color:rgba(51,51,51,1);
+	line-height:1.8;
+}
+.wtf .wrap .contain .txt p{
+	margin-bottom:15px;
+}

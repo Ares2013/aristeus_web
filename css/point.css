@@ -1,0 +1,217 @@
+body {
+	background: #fff;
+}
+.tcorve{
+	margin-top: 122px;
+}
+.tcorve img {
+	width: 100%;
+}
+
+.stand {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.stand_t {
+	font-size: 16px;
+	color: #666666;
+}
+
+.stand_t a {
+	color: #666666;
+}
+
+.stand_t a.blush {
+	color: #0099ff;
+}
+
+.towards {
+	margin-top: 56px;
+}
+
+.stand_n {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 30px;
+}
+
+.stand_n p:last-child {
+	margin-top: 16px;
+}
+
+.accep {
+	width: 1122px;
+	margin: 0 auto;
+	position: relative;
+	background: #fff;
+	box-shadow: 0 0 10px #e9eef1;
+	margin-bottom: 30px;
+}
+
+.accep a {
+	display: block;
+	width: 100%;
+}
+
+.accep a:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.accep_l {
+	width: 460px;
+	height: 360px;
+	float: left;
+}
+
+.accep_l img {
+	width: 100%;
+}
+
+.accep_r {
+	float: left;
+	width: 480px;
+	padding-top: 60px;
+	margin-left: 36px;
+}
+
+.accep_n {
+	font-size: 24px;
+	color: #333;
+}
+
+.accep_t {
+	font-size: 16px;
+	color: #666666;
+	line-height: 24px;
+	margin-top: 80px;
+}
+
+.sparate {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	width: 172px;
+	height: 54px;
+	text-align: center;
+	background: #0099ff;
+	color: #fff;
+	text-align: center;
+	line-height: 54px;
+	font-size: 16px;
+}
+
+.collis {
+	position: absolute;
+	right: 35px;
+	bottom: 35px;
+}
+
+
+/*.towards li.secret{
+	width: 1200px;
+}
+.towards li.secret .accep_l{
+	width: 491px;
+	height: 384px;
+}*/
+
+@keyframes scaleDraw {
+	/*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+	0% {
+		transform: scale(1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+@-moz-keyframes scaleDraw {
+	0% {
+		transform: scale(1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+@-webkit-keyframes scaleDraw {
+	0% {
+		transform: scale(1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+@-o-keyframes scaleDraw {
+	0% {
+		transform: scale(1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+.towards li.secret {
+	animation: scaleDraw 0.5s linear 1 forwards;
+}
+
+@keyframes itical {
+	/*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+	0% {
+		transform: scale(1.1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@-moz-keyframes itical {
+	0% {
+		transform: scale(1.1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes itical {
+	0% {
+		transform: scale(1.1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@-o-keyframes itical {
+	0% {
+		transform: scale(1.1);
+		/*开始为原始大小*/
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.towards li.search {
+	animation: itical 0.5s linear 1 forwards;
+}
+
+#foot{
+	margin-top: 80px;
+}

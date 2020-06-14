@@ -1,0 +1,123 @@
+body{
+	background: #fff;
+}
+.pleasant{
+	width: 100%;
+	height: 504px;
+	background: url(../img/fs_banner.png) no-repeat;
+	background-size: cover;
+	margin-top: 122px;
+}
+.pleasant .bannerCon{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 110px;
+}
+.pleasant .bannerCon p{
+	font-size: 24px;
+	color: #fff;
+	line-height: 30px;
+}
+.pleasant .bannerCon .title{
+	text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.market{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 0 60px 0 66px;
+	position: relative;
+	top: -140px;
+}
+
+.market:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.market_l{
+	float: left;
+	width: 450px;
+	box-sizing: border-box;
+	margin-top: 138px;
+}
+.cash_n{
+	font-size: 30px;
+	color: #1b1b1b;
+	font-weight: bold;
+}
+.cash_t{
+	font-size: 16px;
+	color: #828282;
+	line-height: 26px;
+	margin-top: 60px;
+}
+.cash_i{
+	margin-top: 56px;
+}
+.market_l .cash:first-child .cash_n,.market_l .cash:first-child .cash_i{
+	padding-left: 40px;
+}
+.market_l .cash:last-child .cash_n{
+	padding-left: 20px;
+}
+.market_l .cash:last-child .cash_i{
+	text-align: center;
+}
+.cash{
+	margin-bottom: 192px;
+}
+
+.market_r{
+	width: 552px;
+	float: right;
+	box-sizing: border-box;
+	margin-top: 60px;
+}
+.account_i img{
+	width: 100%;
+}
+.account_n{
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	margin-top: 50px;
+}
+.account_t{
+	font-size: 16px;
+	color: #828282;
+	line-height: 26px;
+	margin-top: 36px;
+}
+.market_r li{
+	margin-bottom: 108px;
+}
+.price_i img{
+	width: 100%;
+}
+.price_n{
+	font-size: 30px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	margin-top: 48px;
+}
+.price>div{
+	width: 500px;
+	margin-left: 52px;
+}
+.price_t{
+	font-size: 16px;
+	color: #828282;
+	line-height: 26px;
+	margin-top: 50px;
+}

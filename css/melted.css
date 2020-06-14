@@ -1,0 +1,152 @@
+body{
+	background: #fff;
+}
+.almost img{
+	width: 100%;
+}
+.sensu{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+.sensu:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.sensu_l{
+	float: left;
+	width: 830px;
+	box-sizing: border-box;
+}
+.brown{
+	font-size: 16px;
+	color: #666666;
+	/*padding-bottom: 26px;
+	border-bottom: 2px solid #e7e7e7;*/
+}
+.brown a{
+	color: #666666;
+}
+.brown a:last-child{
+	color: #a17aff;
+}
+.brown img{
+	margin-top: 22px;
+	width: 100%;
+}
+.sweet{
+	margin-top: 38px;
+}
+.sweet_n{
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 30px;
+}
+.sweet_o{
+	font-size: 14px;
+	color: #696969;
+	line-height: 22px;
+	margin-top: 20px;
+}
+.sweet>img{
+	width: 100%;
+	margin-top: 35px;
+}
+.sweet_s{
+	font-size: 22px;
+	color: #1f1f1f;
+	margin-top: 36px;
+}
+.sensu_r{
+	width: 326px;
+	float: right;
+	box-sizing: border-box;
+}
+.sensu_r>img{
+	width: 100%;
+	margin-top: 36px;
+}
+.toled{
+	font-size: 18px;
+	color: #008fef;
+	margin-top: 22px;
+}
+.ntortd{
+	height: 56px;
+	line-height: 56px;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+.ntortd a{
+	font-size: 16px;
+	color: #999;
+	
+}
+.ntortd img{
+	margin-right: 10px;
+}
+.tende{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 56px;
+}
+.alread{
+	width:1098px ;
+}
+.alread>img{
+	width: 100%;
+}
+
+.saitd{
+	margin-top: 50px;
+	padding-left: 10px;
+}
+.saitd:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.nature{
+	float: left;
+	width: 344px;
+	box-sizing: border-box;
+	border: 1px solid #d2d2d2;
+	margin-right: 28px;
+	margin-bottom: 30px;
+}
+.saitd .nature:nth-child(3n){
+	margin-right: 0;
+}
+.nature>img{
+	width: 100%;
+}
+.gentle{
+	border-top: 1px solid #d2d2d2;
+	padding: 20px 24px 28px 20px;
+	background: #fff;
+}
+.gentle_t{
+	font-size: 20px;
+	color: #999999;
+}
+.gentle_p{
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 22px;
+	margin-top: 24px;
+}
+.gentle_l{
+	text-align: right;
+	font-size: 16px;
+}
+.gentle_l a{
+	color: #999;
+	margin-top: 15px;
+}

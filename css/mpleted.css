@@ -1,0 +1,209 @@
+body {
+	background: #fff;
+}
+
+.tcorve img {
+	width: 100%;
+}
+.stand {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.stand_t {
+	font-size: 16px;
+	color: #666666;
+}
+
+.stand_t a {
+	color: #666666;
+}
+
+.stand_t a.blush {
+	color: #0099ff;
+}
+.stand_n {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 30px;
+}
+
+.stand_n p:last-child {
+	margin-top: 16px;
+}
+.article{
+	margin-top: 60px;
+	background: #0099ff;
+	box-sizing: border-box;
+	padding: 20px 30px;
+	border-radius: 5px;
+}
+.article:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.article_l{
+	float: left;
+}
+.article_r{
+	float: right;
+}
+.article_c{
+	float: left;
+	width: 1096px;
+	overflow: hidden;
+	color: #fff;
+	white-space:nowrap;
+	position: relative;
+}
+.article_c ul{
+	width: 1096px;
+	position: relative;
+	left: 0;
+}
+.article_c ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.article_c li{
+	/*float: left;*/
+	display: inline-block;
+	padding: 0 35px;
+	border-right: 1px solid #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.article_c li:last-child{
+	border: none;
+}
+.article_c li.tractd{
+	font-weight: bold;
+}
+.several{
+	width: 1062px;
+	margin: 0 auto;
+	margin-top: 40px;
+	box-sizing: border-box;
+	padding: 30px 0 40px 0;
+	box-shadow: 0 0 10px #e9eef1;
+}
+.termsd{
+	padding: 0px 20px 25px 20px;
+	position: relative;
+	
+}
+.several li{
+	display: none;
+}
+.several li.articled{
+	display: block;
+}
+.termsd p{
+	font-size: 16px;
+	color: #666;
+	line-height: 24px;
+}
+.profitsd{
+	height: 555px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.termsd span{
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.element{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.stakes{
+	padding: 0 86px 0 30px;
+}
+.stakes_t{
+	text-align: center;
+	font-size: 22px;
+	color: #333;
+	margin-bottom: 40px;
+}
+.stakes_b p{
+	font-size: 16px;
+	color: #333;
+	line-height: 24px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.seldom{
+	margin-top: 60px;
+	border-left: 2px solid #0099ff;
+	padding: 50px 0;
+}
+.compan{
+	margin-bottom: 44px;
+}
+.compan_t{
+	padding-left: 30px;
+	font-size: 18px;
+	color: #333;
+	cursor: pointer;
+	position: relative;
+}
+.compan_t span{
+	position: absolute;
+	top: -5px;
+	left: -14px;
+	display: block;
+	padding: 2px;
+	background: #fff;
+}
+.gainstd{
+	padding: 25px 0;
+	width: 1050px;
+	margin-left: 30px;
+	box-shadow: 0 0 10px #e9eef1;
+	margin-top: 18px;
+	display: none;
+}
+.gainstd_m{
+	padding: 0 25px 10px 25px;
+	position: relative;
+
+}
+.gainstd_m p{
+	font-size: 16px;
+	color: #666;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.serious{
+	height: 530px;
+	overflow: hidden;
+}
+.gainstd_m span{
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+	cursor: pointer;
+}
+.element .greatd{
+	display: none;
+}
+.element .greatd:first-child{
+	display: block;
+}
+#foot{
+	margin-top: 114px;
+}

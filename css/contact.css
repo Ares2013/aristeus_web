@@ -1,0 +1,107 @@
+body{
+	background: #fff;
+}
+.minind{
+	width: 100%;
+	height: 300px;
+	background: url(../img/lx_banner.png) no-repeat;
+	background-size: cover;
+}
+.minine{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+	color: #fff;
+}
+.minine_1{
+	font-size: 32px;
+	margin-bottom: 60px;
+}
+.touch{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.estab{
+	width: 1200px;
+	margin:  0 auto;
+	margin-top: 32px;
+}
+.estab_t{
+	font-size: 16px;
+	color: #666666;
+}
+.estab_t a{
+	color: #666666;
+}
+.estab_n{
+	font-size: 28px;
+	color: #333333;
+	margin-top: 36px;
+}
+.related{
+	width: 1082px;
+	margin-left: 30px;
+	margin-top: 66px;
+}
+
+.related p input{
+	width: 100%;
+	background: #f5f5f5;
+	height: 44px;
+	line-height: 44px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 0 28px;
+	font-size: 18px;
+}
+.related p {
+	margin-bottom: 20px;
+}
+.related p textarea{
+	padding: 15px 28px;
+	width: 100%;
+	background: #f5f5f5;
+	box-sizing: border-box;
+	font-size: 18px;
+	border-radius: 5px;
+	height: 278px;
+	border: none;
+}
+.related p button{
+	
+	font-weight: bold;
+}
+.related p:last-child input{
+	width: 156px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #0099ff;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 24px;
+	padding: 0;
+}
+#foot{
+	margin-top: 88px;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */ 
+    font-size: 18px;
+    font-weight: normal;
+} 
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+   font-size: 18px;
+    font-weight: normal;
+} 
+input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+   font-size: 18px;
+    font-weight: normal;
+} 
+input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+   font-size: 18px;
+    font-weight: normal;
+}
+.minind{
+	margin-top: 122px;
+}

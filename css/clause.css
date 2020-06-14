@@ -1,0 +1,136 @@
+body {
+	background: #fff;
+}
+.tcorve{
+	margin-top: 122px;
+}
+.tcorve img {
+	width: 100%;
+}
+
+.stand {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.stand_t {
+	font-size: 16px;
+	color: #666666;
+}
+
+.stand_t a {
+	color: #666666;
+}
+
+.stand_t a.blush {
+	color: #0099ff;
+}
+.stand_n {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 50px;
+}
+
+.stand_n p:last-child {
+	margin-top: 16px;
+}
+.article{
+	margin-top: 30px;
+	background: #0099ff;
+	box-sizing: border-box;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+.article:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.article_l{
+	float: left;
+	cursor:pointer;
+
+}
+.article_r{
+	float: right;
+	cursor:pointer;
+}
+.article_c{
+	float: left;
+	width: 1096px;
+	overflow: hidden;
+	color: #fff;
+	white-space:nowrap;
+	position: relative;
+}
+.article_c ul{
+	width: 1096px;
+	position: relative;
+	left: 0;
+}
+.article_c ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.article_c li{
+	/*float: left;*/
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.article_c li:last-child{
+	border: none;
+}
+.article_c li.tractd{
+	font-weight: bold;
+}
+.several{
+	width:1200px;
+	padding:50px 15px;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.several li{
+	padding-bottom:10px;
+	text-align: justify;
+}
+.several .s_title{
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+	line-height:1.5;
+}
+.several .s_txt{
+	padding-left:5px;
+	font-size:16px;
+	color:#666;
+	line-height:1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#foot{
+	margin-top: 114px;
+}

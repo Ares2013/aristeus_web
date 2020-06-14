@@ -1,0 +1,294 @@
+body{
+	background: #fff;
+}
+.masted{
+	position: absolute;
+	top: 22%;
+	left: 6.7%;
+	width: 32.1%;
+	box-sizing: border-box;
+	
+	
+}
+.masted_t{
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 46px;
+}
+.masted_tm a{
+	font-size: 22px;
+	color: #fff;
+	display: inline-block;
+	
+	height: 60px;
+	line-height: 60px;
+	width: 250px;
+	text-align: center;
+	border-radius:5px ;
+	border: 1px solid #fff;
+}
+.masted_tm a:first-child{
+	margin-right: 30px;
+}
+/* .masted_tm a.crest{
+	background: #0099ff;
+	border: 1px solid #0099ff;
+} */
+.masted_tm a:hover{
+	background: #0099ff;
+	border: 1px solid #0099ff;
+}
+.masted_tm{
+	position: absolute;
+	top: 62%;
+	left: 6.8%;
+	box-sizing: border-box;
+	z-index: 999;
+}
+.sash{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.track{
+	position: relative;
+	top: -122px;
+}
+.track:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.track li{
+	float: left;
+	width: 194px;
+	height: 244px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 8px;
+	 box-shadow: 0 0 10px #e3e4e4;
+	 text-align: center;
+	 margin-right: 7px;
+}
+.track li:last-child{
+	margin-right: 0;
+}
+.track li img{
+	margin-top: 60px;
+}
+.track li p{
+	font-size: 20px;
+	color: #666;
+	margin-top: 32px;
+	/*padding: 0 30px;*/
+	line-height: 30px;
+}
+
+.sash_title{
+	font-size: 32px;f
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: -30px;
+}
+.sash_jj{
+	text-align: center;
+	font-size: 20px;
+	color: #666;
+	line-height: 30px;
+	
+}
+.bounce{
+	margin-top: 206px;
+}
+.bounce:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.bounce li{
+	width: 203px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 46px;
+}
+.bounce li:nth-child(2n){
+	position: relative;
+	top: -164px;
+}
+.bounce li:last-child{
+	margin-right: 0;
+}
+.chaird{
+	width: 203px;
+	height: 203px;
+	border-radius: 50%;
+	background: #edf1fa;
+	padding: 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+.chaird img.spring{
+	width: 100%;
+}
+.ditch{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.bounce li p{
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+	margin-top: 24px;
+}
+.pulsed .chaird{
+	background: #00b4ff;
+}
+.pulsed .chaird .ditch{
+	display: none;
+}
+.skip{
+	width: 100%;
+	height: 476px;
+	background: url(../img/our1.png) no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+}
+.beatd{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 115px;
+	color: #fff;
+	text-align: center;
+}
+.beatd_n{
+	
+	font-size: 32px;
+	font-weight: bold;
+}
+.beatd_t{
+	font-size: 20px;
+	margin-top: 30px;
+	line-height: 32px;
+}
+.beatd_m{
+	margin-top: 75px;
+}
+.beatd_m img{
+	margin-right: 50px;
+}
+.twitch{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 118px;
+}
+.twitch_n{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: #333;
+}
+.pitated{
+	
+	width: 1116px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.pitated:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.pitated li{
+	float: left;
+	width: 528px;
+	height: 130px;
+	box-sizing: border-box;
+	border: 1px solid #c9ddfa;
+	border-radius: 5px;
+	padding: 0 20px;
+	margin-right: 60px;
+	margin-bottom: 28px;
+	cursor: pointer;
+}
+.pitated li span{
+	position: relative;
+	float: left;
+	margin-top: 34px;
+	margin-right: 36px;
+}
+/*.pitated li span img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+.steadm{
+	display: none;
+}
+.stitche{
+	float: left;
+	margin-top: 28px;
+	color: #333;
+}
+.tche_t{
+	font-size: 22px;
+	font-weight: bold;
+}
+.tche_b{
+	font-size: 16px;
+	margin-top: 28px;
+}
+.pitated li.scaretd{
+	background: #448eff;
+	border: 1px solid #448eff;
+}
+.pitated li.scaretd span .steadm{
+	display: block;
+}
+.pitated li.scaretd span .steadx{
+	display: none;
+}
+.pitated li.scaretd .stitche{
+	color: #fff;
+}
+#foot{
+	margin-top: 84px;
+}
+.tmask{
+	position: relative;
+}
+.tmask>span{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+}
+.elmdsp{
+	position: relative;
+}
+.elmdsp>span{
+	display: inline-block;
+	width: 50px;
+	height: 32px;
+	background: rgba(255,255,255,0);
+	position: absolute;
+	right: 0;
+	bottom: 32px;
+	z-index: 99;
+}
+.pitated li:nth-child(2n){
+	margin-right: 0;
+}

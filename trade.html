@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Aristeus Financial Service Limited</title>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">	
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/trade.css"/>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="head">
+			<div class="top">
+			<p><a href="login.html">Login/Register</a></p>
+			<div class="silked">
+				<a href="index.html" class="logo"><img src="img/logo.png"/></a>
+				<ul>
+					<li class="trouse">
+						<a href="index.html" >Home</a>
+					</li>
+					<li class="trouse">
+						<a href="about.html" >About Us</a>
+						<div class="peared">
+							<p class="ahead"><a href="about.html">Company   Profile</a></p>
+							<p><a href="less.html">Regulation</a></p>
+							<!-- <p><a href="news.html">News</a></p> -->
+						</div>
+					</li>
+					<li class="trouse">
+						<a href="product.html">Trading Products</a>
+						<div class="peared">
+							<p class="ahead"><a href="product.html">Forex trading</a></p>
+							<p><a href="plantd.html">CFDs trading</a></p>
+							
+						</div>
+					</li>
+					<li class="trouse">
+						<a href="trade.html" class="plaid">Trading Platforms</a>
+					</li>
+					<li class="trouse">
+						<a href="Overview.html">Education</a>
+						<div class="peared">
+							<p><a href="Overview.html">Overview</a></p>
+							<p><a href="point.html">Market Analysis</a></p>
+							<!-- <p><a href="external.html">Glossary</a></p> -->
+						</div>
+					</li>
+					<li class="trouse">
+						<a href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		</div>
+		<div class="pleasant">
+			<div class="bannerCon">
+				<div class='title'>Our Platforms</div>
+				<p>Explore our best ever web platforms, award-winning mobile apps and <br>advanced third-party technology, find a platform  suitable for you </p>
+			</div>
+		</div>
+		<div class="market">
+			<ul class="market_l">
+				<li class="cash">
+					<p class="cash_n">Client Portal</p>
+					<p class="cash_i"><img src="img/pt1.png"/></p>
+					
+					<p class="cash_t">One-stop client portal to check quotes and place trade orders, account balances, P&L and key performance metrics, funding, reporting, and more. Suitable for new clients, advisor clients who want a clear, understandable and real-time view of their accounts as well as traders and investors who prefer one-stop and all-inclusive  and 24-hour service</p>
+				</li>
+				<li class="cash">
+					<p class="cash_n">Desktop TWS</p>
+					<p class="cash_i"><img src="img/pt2.png"/></p>
+					
+					<p class="cash_t">Our flagship platform specifically designed for active clients require multiple products trading and flexibility. TWS includes all of our most advanced algos and trading tools, suitable for traders and investors who want to take advantage of the full Aristeus Financial Service offerings, and global traders who require in-depth news, technical research and risk analysis tools</p>
+				</li>
+			</ul>
+			<ul class="market_r">
+				<li class="ckage">
+					<p class="account_i"><img src="img/pt3.png"/></p>
+					<p class="account_n">Web Trader</p>
+					<p class="account_t">The online trading platform that’s easy to use and puts you in control, and personalise your trading experience. Plus access to thousands of trades worldwide and expert financial analysis. Our online trading platform makes placing trades simple. You can start to trade simply by logging in to your account.</p>
+				</li>
+				<li class="price">
+					<div id="">
+						<p class="price_i"><img src="img/pt4.png"/></p>
+						<p class="price_n">Aristeus Financial Service Mobile</p>
+						<p class="price_t">Mobile app provides access for clients to easily trade whenever and wherever they are, and also monitor account through iOS or Android device (tablet or smartphone), suitable for traders and investors would like to keep an eye on their account</p>
+					</div>
+					
+				</li>
+				<li class="price">
+					<div id="">
+						<p class="price_i"><img src="img/pt5.png"/></p>
+						<p class="price_n">AFS Trader</p>
+						<p class="price_t">Web-based trading platform offers similar functions as desktop TWS with a simpler interface, and works behind a firewall, suitable for traders and investors who prefer a simplified interface, or who are behind a firewall</p>
+					</div>
+					
+				</li>
+			</ul>
+		</div>
+		<div id="foot"></div>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+//				$("#head").load("header.html");
+				$("#foot").load("footer.html");
+				$(".silked ul").mouseout(function() {
+					$(".silked ul li:nth-child(4)").children("a").addClass("plaitsd")
+				})
+			});
+		</script>
+	</body>
+</html>

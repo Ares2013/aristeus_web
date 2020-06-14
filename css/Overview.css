@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+.content {
+    margin-top: 122px;
+}
+
+.content .banner {
+    height: 444px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content .banner .wrap {
+    width: 834px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 98px;
+}
+
+.content .banner .title {
+    font-size: 49px;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.5;
+    margin-bottom: 38px;
+}
+
+.content .banner .subTitle {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.8;
+}
+
+/* afs */
+.afs {
+    background: #fff;
+    margin-bottom:180px;
+}
+
+.afs .wrap {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 61px;
+
+}
+
+.afs .wrap .title {
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.afs .wrap .list:after {
+    content: '';
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.afs .wrap .itemBx {
+    float: left;
+    margin-right: 93px;
+}
+.afs .wrap .itemBx:last-child{
+    margin-right:0;
+} 
+.afs .wrap .itemBx .item {
+    width: 315px;
+    height: 312px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(225, 225, 225, 1);
+    padding: 10px;
+}
+
+.afs .wrap .itemBx .item .imgBx {
+    height: 142px;
+    line-height: 142px;
+    text-align: center;
+}
+
+.afs .wrap .itemBx .item .imgBx img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.afs .wrap .itemBx .item .description {
+    padding-top: 25px;
+    margin-left:0;
+}
+
+.afs .wrap .itemBx .item .description .item_title {
+    font-size: 26px;
+    font-family: Arial;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    line-height: 1.5;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.afs .wrap .itemBx .item .description .item_txt {
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: 1.8;
+    text-align: justify;
+}
