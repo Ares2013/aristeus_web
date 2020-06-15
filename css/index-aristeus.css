@@ -446,7 +446,7 @@ body{
 }
 .product-description{
 	font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 .pulsed .product-title,.pulsed .product-description{
 	color: #0099FF;
@@ -652,7 +652,7 @@ body{
 }
 .twitch-conent-title{
 	font-size:18px;
-	
+
 	font-weight:400;
 	color:#000000;
 	line-height:28px;
