@@ -389,12 +389,12 @@ body{
 .slider-title-h1{
 	font-size: 48px;
   font-weight: bold;
-	font-family:Arial;
+
 	color: #FFFFFF;
 }
 .slider-title-p{
 	margin-top: 50px;
-	font-family:Arial;
+
 	color: #FFFFFF;
 }
 .btn-account {
@@ -560,14 +560,14 @@ body{
 .service-text-title{
 	font-size: 32px;
 	font-weight: bold;
-	font-family:Arial;
+
 	color:#999999;
 	line-height: 32px;
 }
 .service-text-subtitle{
 	font-size: 18px;
 	font-weight: bold;
-	font-family:Arial;
+
 	color:#999999;
 	line-height: 22px;
 	margin-top: 35px;
@@ -644,7 +644,7 @@ body{
 }
 .twitch-conent-subtitle{
 	font-size:14px;
-	font-family:Arial;
+
 	font-weight:400;
 	color:#999999;
 	line-height:30px;
@@ -652,7 +652,7 @@ body{
 }
 .twitch-conent-title{
 	font-size:18px;
-	font-family:Arial;
+	
 	font-weight:400;
 	color:#000000;
 	line-height:28px;

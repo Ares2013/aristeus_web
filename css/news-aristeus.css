@@ -35,7 +35,6 @@ body{
 .banner-subtitle{
 	margin-bottom:15px;
 	font-size:28px;
-	font-family:Arial;
 	font-weight:400;
 	color:#FFFFFF;
 }
@@ -306,7 +305,6 @@ margin: 0px auto;
 }
 .th1{
   font-size:32px;
-  font-family:Arial-BoldMT;
   font-weight:bold;
   color:#000000;
   line-height:14px;
@@ -314,7 +312,6 @@ margin: 0px auto;
 
 .tp1{
   font-size:16px;
-  font-family:ArialMT;
   font-weight:400;
   color:#666666;
   line-height:33px;
@@ -322,7 +319,6 @@ margin: 0px auto;
 }
 .tp2{
   font-size:20px;
-  font-family:ArialMT;
   font-weight:400;
   color:#666666;
   line-height:33px;
@@ -386,7 +382,6 @@ margin: 0px auto;
 }
 .accent_text-1{
   font-size:32px;
-  font-family:Arial;
   font-weight:bold;
   color:#FFFFFF;
   line-height:14px;
@@ -394,7 +389,6 @@ margin: 0px auto;
 }
 .accent_text-2{
   font-size:20px;
-  font-family:Arial;
   font-weight:400;
   color:rgba(255,255,255,1);
   line-height:30px;
@@ -414,7 +408,6 @@ margin: 0px auto;
 .us-text{
   text-align: center;
   font-size:32px;
-  font-family:Arial;
   font-weight:bold;
   color:#000000;
   line-height:14px;
@@ -443,7 +436,7 @@ margin: 0px auto;
 }
 .box-title{
   font-size:22px;
-  font-family:Arial;
+  
   font-weight:bold;
   color:rgba(51,51,51,1);
   line-height:28px;
@@ -553,7 +546,7 @@ margin: 0px auto;
 .trade-bar-text{
   margin-top: 38px;
   font-size:22px;
-  font-family:Arial;
+
   font-weight:bold;
   color:#333333;
   line-height:28px;
@@ -596,7 +589,7 @@ margin: 0px auto;
 	width:310px;
 	height:84px;
 	font-size:16px;
-	font-family:Arial;
+
 	font-weight:400;
 	color:#333333;
 	line-height:33px;
@@ -651,7 +644,7 @@ margin: 0px auto;
 	width:100%;
 	height:20px;
 	font-size:22px;
-	font-family:Arial;
+
 	font-weight:400;
 	color:#0099FF;
 	line-height:42px;
@@ -661,7 +654,7 @@ margin: 0px auto;
 	width:100%;
 	height:15px;
 	font-size:16px;
-	font-family:Arial;
+
 	font-weight:400;
 	color:#FFFFFF;
 	line-height:36px;
@@ -692,7 +685,7 @@ margin: 0px auto;
 	width:328px;
 height:17px;
 font-size:16px;
-font-family:Arial;
+
 font-weight:400;
 color:#000000;
 line-height:32px;
@@ -706,7 +699,7 @@ margin-top: 42px;
 	width:300px;
 	height:15px;
 	font-size:14px;
-	font-family:Arial;
+
 	font-weight:400;
 	color:rgba(153,153,153,1);
 	line-height:30px;
@@ -728,22 +721,22 @@ margin-top: 42px;
 	width: 100%;
 }
 .news-list-linkout{
-	width: 32px;
-	height: 24px;
-	flex: 10;
-	background-repeat: no-repeat;
+	width: 0px;
+  height: 24px;
+  flex: 7;
+  background-repeat: no-repeat;
 }
 .news-list-date{
 	display: flex;
-	justify-content: flex-start;
+  justify-content: flex-start;
   align-items: flex-start;
-	flex-flow: column;
+  flex-flow: column;
+  flex: 1;
 }
 .news-d{
 	width:33px;
 	height:26px;
-	font-size:36px;
-	font-family:Arial;
+	font-size:18px;
 	font-weight:400;
 	color:#0099FF;
 	line-height:30px;
@@ -752,7 +745,6 @@ margin-top: 42px;
 	width:52px;
 	height:10px;
 	font-size:14px;
-	font-family:Arial;
 	font-weight:400;
 	color:#999999;
 	line-height:30px;
@@ -788,7 +780,6 @@ margin-top: 42px;
 	margin-left: 40px;
 	margin-top: 30px;
 	font-size:22px;
-	font-family:Arial;
 	font-weight:400;
 	color:#0099FF;
 	line-height:42px;
@@ -797,7 +788,6 @@ margin-top: 42px;
 	margin-left: 40px;
 	margin-top: 0px;
 	font-size:14px;
-	font-family:Arial;
 	font-weight:400;
 	color:#FFFFFF;
 	line-height:36px;
@@ -820,7 +810,6 @@ margin-top: 42px;
 }
 .hot-subtitle{
 	font-size:14px;
-	font-family:Arial;
 	font-weight:400;
 	color:#999999;
 	line-height:30px;
@@ -828,7 +817,6 @@ margin-top: 42px;
 }
 .hot-title{
 	font-size:18px;
-	font-family:Arial;
 	font-weight:400;
 	color:#000000;
 	line-height:28px;

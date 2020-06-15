@@ -390,7 +390,7 @@ body{
 }
 .accent_text-1{
   font-size:32px;
-  font-family:Arial;
+
   font-weight:bold;
   color:#FFFFFF;
   line-height:14px;
@@ -398,7 +398,7 @@ body{
 }
 .accent_text-2{
   font-size:20px;
-  font-family:Arial;
+
   font-weight:400;
   color:rgba(255,255,255,1);
   line-height:30px;
@@ -418,7 +418,7 @@ body{
 .us-text{
   text-align: center;
   font-size:32px;
-  font-family:Arial;
+
   font-weight:bold;
   color:#000000;
   line-height:14px;
@@ -447,7 +447,7 @@ body{
 }
 .box-title{
   font-size:22px;
-  font-family:Arial;
+
   font-weight:bold;
   color:rgba(51,51,51,1);
   line-height:28px;
@@ -563,7 +563,7 @@ body{
 .trade-bar-text{
   margin-top: 38px;
   font-size:22px;
-  font-family:Arial;
+
   font-weight:bold;
   color:#333333;
   line-height:28px;
