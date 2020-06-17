@@ -106,6 +106,8 @@ body{
 .track-text>p{
 	height: 80px;
   text-align: center;
+	font-size: 20px;
+  color: #666;
   line-height: 80px;
 }
 
@@ -394,8 +396,9 @@ body{
 }
 .slider-title-p{
 	margin-top: 50px;
-
-	color: #FFFFFF;
+	font-size: 20px;
+  color: #666;
+  line-height: 30px;
 }
 .btn-account {
 	display: flex;
@@ -447,6 +450,9 @@ body{
 .product-description{
 	font-size: 14px;
   text-align: left;
+	font-size: 20px;
+  color: #666;
+  line-height: 30px;
 }
 .pulsed .product-title,.pulsed .product-description{
 	color: #0099FF;
